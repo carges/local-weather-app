@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Page title -->
+    <title>Local Weather</title>
+  </head>
+
+  <body class="myBody">
+
+    <img class="source-image" src="" alt="" />
+
+    <div class="container text-center mainDiv">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 text-left myCol location">
+          <p><span id="location"></span></p>
+          <p><span id="description"></span></p>
+          <p><span id="descIcon"></span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 text-left myCol">
+          <p><span id="temperature"></span> <button class="btn btn-primary" id="toggleTemp"> &deg;F</button></p>
+          <p><span id="clouds"></span></p>
+          <p><span id="wind"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">Coded by <a href="https://www.freecodecamp.com/carges">carges</a></footer>
+
+  </body>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- My script -->
+  <script src="main.js"></script>
+
+</html>
